@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pushpalatha S | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    nav {
+      background-color: #2c3e50;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #ecf0f1;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { color: #f1c40f; }
+    header {
+      background: linear-gradient(to right, #283e51, #485563);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 { font-size: 3em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; color: #ddd; }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about, .education, .skills, .projects, .experience {
+      background-color: #fff;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 40px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .about:hover, .education:hover, .skills:hover, .projects:hover, .experience:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      color: #2c3e50;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 20px; }
+    img.project-img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .resume-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 25px;
+      background-color: #2c3e50;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      text-align: center;
+      width: fit-content;
+    }
+    .resume-button:hover {
+      background-color: #f1c40f;
+      color: #2c3e50;
+    }
+    footer {
+      background-color: #283e51;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    footer p { margin-bottom: 10px; }
+    footer a {
+      color: #f1c40f;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+    footer a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pushpalatha S</h1>
+    <p>Computer Science Engineering Student | Android Developer | Tech Enthusiast | Data Analyst</p>
+    <a href="C:\Users\kusum\Downloads\resumep.pdf" class="resume-button" target="_blank">Download My Resume</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#footer">Contact</a>
+  </nav>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>Final-year engineering student with a passion for Android development and real-world tech applications. Experienced in building mobile and embedded systems projects with a strong foundation in Java.</p>
+  </section>
+
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <p><b>Bachelor of Technology (B.Tech)</b><br>
+    Presidency University, Bangalore<br>
+    Computer Science and Engineering</p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming: Java, C, C++, Python, HTML, CSS</li>
+      <li>Tools & Frameworks: Android Studio</li>
+      <li>Core: DBMS, Data Structures & Algorithms</li>
+      <li>Soft Skills: Communication, Time Management, Leadership</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <b>Smart Waste Segregation System</b><br>
+        An automated waste segregation system designed to separate dry, wet, and metallic waste using Arduino. It utilizes ultrasonic sensors to detect objects, a moisture sensor to determine humidity levels, and servo motors on a 360° rotating platform to direct waste into the correct bin. This solution promotes sustainable waste management and efficient sorting in real-time.<br>
+        <img src="C:\Users\kusum\Downloads\smart.jpeg" alt="Smart Waste Segregation System" class="project-img">
+      </li>
+      <li>
+        <b>AI-based Personal Assistant</b><br>
+        A voice-controlled assistant system implemented on Raspberry Pi, using Python and integrated with Putty for configuration and execution. The assistant uses a microphone to receive commands and fetches real-time information from the web, such as weather updates and calendar tasks. It showcases capabilities of AI in personal productivity tools.<br>
+        <img src="C:\Users\kusum\Downloads\ai.jpeg" alt="AI Assistant Project" class="project-img">
+      </li>
+      <li>
+        <b>Communication Aid for Hearing Impaired</b><br>
+        Developed using Raspberry Pi, flex and IR sensors embedded in a wearable glove. This innovative system converts hand gestures into pre-defined text displayed on an LCD screen. Tools like VNC Viewer and Putty were used for remote coding and control. It provides an accessible and cost-effective method of communication for people with hearing and speech impairments.<br>
+        <img src="C:\Users\kusum\Downloads\flex.jpeg" alt="Communication Aid Project" class="project-img">
+      </li>
+    </ul>
+  </section>
+
+  <section class="experience" id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><b>Intern - Plasmid Cloud Internship</b><br>
+        Mini project on IaaS & PaaS, major project on Attendance Management System hosted on AWS.
+      </li>
+    </ul>
+  </section>
+
+  <footer id="footer">
+    <p>Connect with me</p>
+    <a href="mailto:pushpaltha20221cse0705s@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/pushpalatha~s" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/Pushpalatha276" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  </footer>
+
+</body>
+</html>
